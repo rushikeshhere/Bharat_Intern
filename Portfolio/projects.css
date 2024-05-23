@@ -1,0 +1,206 @@
+body {
+
+    color: rgb(29, 8, 8);
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 60px;
+    background-color: #063970;
+    border-radius: 10px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 23px;
+}
+
+
+.left {
+    font-size: 1.5rem;
+    color: white;
+}
+
+.right a {
+    text-decoration: none;
+    color: white;
+}
+
+.right a:hover {
+    color: rgb(159, 229, 229);
+    font-size: 1.5rem;
+}
+
+h1 {
+    margin: 25px;
+    text-align: center;
+}
+
+.first-row {
+    display: flex;
+    justify-content: space-between;
+    margin: 60px;
+    margin-right: 300px;
+    margin-left: 300px;
+
+}
+
+
+
+.first-row .first {
+    width: 250px;
+    height: 370px;
+    border-radius: 10px;
+    box-shadow: 2px 5px 7px 5px rgb(62, 65, 153);
+}
+
+.first .weather-App {
+    overflow: hidden;
+    width: 250px;
+    height: 150px;
+    border-radius: 10px;
+}
+
+.first hr {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.first #weather {
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.first #description {
+    text-align: justify;
+    margin-left: 30px;
+}
+
+.first-row .second {
+    width: 250px;
+    height: 370px;
+    border-radius: 10px;
+    box-shadow: 2px 5px 7px 5px rgb(62, 65, 153);
+}
+
+.second .Digital-clock {
+    overflow: hidden;
+    width: 250px;
+    height: 150px;
+    border-radius: 10px;
+}
+
+.second hr {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.second #digital {
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.second #description {
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    margin-left: 30px;
+}
+
+.second-row {
+    display: flex;
+    justify-content: space-between;
+    margin: 60px;
+    margin-right: 300px;
+    margin-left: 300px;
+}
+
+.second-row .third {
+    width: 250px;
+    height: 370px;
+    border-radius: 10px;
+    box-shadow: 2px 5px 7px 5px rgb(62, 65, 153);
+}
+
+.third .Pomodoro-Timer {
+    overflow: hidden;
+    width: 250px;
+    height: 150px;
+    border-radius: 10px;
+}
+
+.third hr {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.third #pomodoro {
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.third #description {
+    text-align: justify;
+    padding: 10px;
+    margin-left: 30px;
+}
+
+.second-row .fourth {
+    width: 250px;
+    height: 370 px;
+    border-radius: 10px;
+    box-shadow: 2px 5px 7px 5px rgb(62, 65, 153);
+}
+
+.fourth .Mini-calender {
+    overflow: hidden;
+    width: 250px;
+    height: 150px;
+    border-radius: 10px;
+}
+
+.fourth hr {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.fourth #mini-calender {
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.fourth #description {
+    text-align: justify;
+    padding: 10px;
+    margin-left: 30px;
+}
