@@ -105,23 +105,69 @@ nav ul li {
 }
 
 .first-section .rightsection {
-    border-left: 10px;
-    border-color: rgb(0, 255, 17);
     color: black;
-    height: 500px;
-    width: 400px;
     margin-right: 120px;
+
 }
 
-.rightsection .btn {
-
-    display: block;
-    margin: 15px;
+.rightsection {
+    width: 400px;
+    height: 370px;
+    background-color: rgb(185, 166, 140);
+    border-radius: 35px;
 }
 
-
-.mb-3 .msg {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 1.5rem;
+.rightsection .msg {
+    font-size: 25px;
+    font-family: cursive;
     text-align: center;
+    margin: 20px;
+}
+
+.rightsection .field {
+
+    height: 50px;
+    text-align: center;
+}
+
+.field {
+    border-radius: 7px;
+}
+
+.field #from_name {
+    border-radius: 10px;
+    border: none;
+    width: 200px;
+    padding: 5px;
+}
+
+.field #email_id {
+    border-radius: 10px;
+    border: none;
+    width: 200px;
+    padding: 5px;
+}
+
+.field #subject {
+    border-radius: 10px;
+    border: none;
+    width: 200px;
+    padding: 5px;
+}
+
+.field #message {
+    border-radius: 10px;
+    border: none;
+    width: 200px;
+    padding: 5px;
+}
+
+
+.rightsection #button {
+    padding: 5px;
+    margin-left: 85px;
+    border-radius: 7px;
+    width: 110px;
+    background-color: white;
+    border: 5px;
 }
